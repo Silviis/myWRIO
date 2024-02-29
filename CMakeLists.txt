@@ -9,8 +9,6 @@ project(
 # Add all source files in the src/ directory
 file(GLOB LIB_SOURCES "src/*.cpp" "src/*.h")
 
-add_compile_definitions(MyRio_1900)
-
 add_library(myWRIO STATIC ${LIB_SOURCES})
 
 # Include directories for myWRIO
