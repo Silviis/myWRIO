@@ -1,6 +1,6 @@
 #include "Wifi.h"
 
-using namespace myRIO;
+using namespace myWRIO;
 
 
 

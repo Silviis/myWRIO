@@ -1,6 +1,6 @@
 #include "MotorPID.h"
 
-using namespace myRIO;
+using namespace myWRIO;
 
 /** Set the PI coefficients of the motors
 * @param kp proportional coefficient

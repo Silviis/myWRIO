@@ -1,15 +1,18 @@
-#include "MyRIO.h"
-
-using namespace myRIO;
+#include "myWRIO.h"
+#include "MyRio.h"
 
 NiFpga_Status status = 0; /**< Initialize the status to 0 */
 
-bool myRIO::myRIO_init() {
+bool myWRIO::myRIO_init() {
 	status = MyRio_Open();
 	return MyRio_IsNotSuccess(status)?false:true;
 }
 
-bool myRIO::myRIO_close() {
+bool myWRIO::myRIO_false() {
+	return false;
+}
+
+bool myWRIO::myRIO_close() {
 	status = MyRio_Close();
 	return MyRio_IsNotSuccess(status)?false:true;
 }
@@ -17,7 +20,7 @@ bool myRIO::myRIO_close() {
 /*
  * Return true when there is an error
  */
-bool myRIO::myRIO_error() {
+bool myWRIO::myRIO_error() {
 	return NiFpga_IsError(status);
 }
 

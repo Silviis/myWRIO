@@ -1,10 +1,10 @@
 #ifndef I2C_H_
 #define I2C_H_
 
+#include "myWRIO.h"
 #include "MyRio.h"
-#include "CAPI/MyRio.h"
 
-namespace myRIO {
+namespace myWRIO {
 
 /**
  * I2C_CNTL contains informations about the procedure to come.
@@ -62,6 +62,6 @@ private:
 	uint8_t cntr; /**< Contains informations relative to the procedure to come. */
 };
 
-} /* namespace myRIO */
+} /* namespace myWRIO */
 
 #endif /* I2C_H_ */

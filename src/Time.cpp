@@ -1,6 +1,6 @@
 #include "Time.h"
 
-using namespace myRIO;
+using namespace myWRIO;
 /** Constructor
 * Create a time object referencing the given time
 */
@@ -65,7 +65,7 @@ void Time::wait_ms(long int ms) {
 
 	// gettimeofday return Âµs%1e6
 	if(currentTime.tv_usec + ms*1000L >= 1e6) { // if we overflowed
-		time_t inRange = 1e6 - currentTime.tv_usec; // we counted $inRange µs
+		time_t inRange = 1e6 - currentTime.tv_usec; // we counted $inRange ï¿½s
 		time_t left = 1000L*ms - inRange; // so there is $left left from 0
 
 		while(currentTime.tv_usec > left) // wait to overflow
@@ -88,7 +88,7 @@ void Time::wait_us(long int us) {
 	gettimeofday(&currentTime, NULL);
 
 	if(currentTime.tv_usec + us > 1e6) { // if we overflowed
-		time_t inRange = 1e6 - currentTime.tv_usec; // we counted $inRange µs
+		time_t inRange = 1e6 - currentTime.tv_usec; // we counted $inRange ï¿½s
 		time_t left = us - inRange; // so there is $left left from 0
 
 		while(currentTime.tv_usec > left) // wait to overflow

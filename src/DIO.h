@@ -1,14 +1,14 @@
 #ifndef DIO_H_
 #define DIO_H_
 
-#include "CAPI/MyRio.h"
+#include "MyRio.h"
 #include <stdio.h> // for MyRio_ReturnIfNotSuccess
-#include "MyRIO.h"
+#include "myWRIO.h"
 
 #define LOW 0
 #define HIGH 1
 
-namespace myRIO {
+namespace myWRIO {
 
 	/** IN/OUT pin direction */
 	enum {

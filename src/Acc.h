@@ -1,11 +1,11 @@
 #ifndef ACC_H_
 #define ACC_H_
 
-#include "CAPI/MyRIO.h"
+#include "MyRio.h"
 #include <stdio.h>
-#include "MyRIO.h"
+#include "myWRIO.h"
 
-namespace myRIO {
+namespace myWRIO {
 	
 	/**
 	* Embedded accelerometer

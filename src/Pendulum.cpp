@@ -1,6 +1,6 @@
 #include "Pendulum.h"
 
-using namespace myRIO;
+using namespace myWRIO;
 
 Pendulum::Pendulum(double k1, double k2) :
 		setpoint(0), k1(k1), k2(k2) {}

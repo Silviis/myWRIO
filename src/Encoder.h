@@ -1,10 +1,10 @@
 #ifndef ENCODER_H_
 #define ENCODER_H_
 
-#include "MyRio.h"
+#include "myWRIO.h"
 #include <thread>
 
-namespace myRIO {
+namespace myWRIO {
 
 /**
 * Encoder channels
@@ -34,6 +34,6 @@ private:
 	uint32_t regStat;
 };
 
-} /* namespace myRIO */
+} /* namespace myWRIO */
 
 #endif /* ENCODER_H_ */

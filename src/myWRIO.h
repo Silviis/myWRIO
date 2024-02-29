@@ -1,9 +1,10 @@
-#ifndef MYRIO_H
-#define MYRIO_H
+#ifndef MYWRIO_H
+#define MYWRIO_H
 
+#include <functional>
 #include <iostream>
 #include <math.h>
-#include "CAPI/MyRio.h"
+#include "MyRio.h"
 
 #include "Acc.h"
 #include "DIO.h"
@@ -21,8 +22,8 @@
 
 
 
-namespace myRIO {
-
+namespace myWRIO {
+	bool myRIO_false();
 	bool myRIO_init();
 	bool myRIO_close();
 	bool myRIO_error();
@@ -40,18 +41,6 @@ static std::string printBits(uint8_t byte) {
 		std::cout << ((byte & (1 << i)) != 0)?'1':'0';
 	return "";
 }
-
-/**
-* \example example_acc.cpp
-* \example example_aio.cpp
-* \example example_blink.cpp
-* \example example_log.cpp
-* \example example_motor_pid_encoder.cpp
-* \example example_pwm.cpp
-* \example project_angle.cpp
-* \example project_car.cpp
-* \example project_pendulum.cpp
-*/
 
 }
 

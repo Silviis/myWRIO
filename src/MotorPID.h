@@ -1,12 +1,12 @@
 #ifndef MotorPID_H_
 #define MotorPID_H_
 
-#include "MyRIO.h"
+#include "myWRIO.h"
 #include "Time.h"
 
 #define NB_AVG 40
 
-namespace myRIO {
+namespace myWRIO {
 
 /**
  * This class can be used to regulate a motor speed.

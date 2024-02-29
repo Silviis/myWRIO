@@ -1,6 +1,6 @@
 #include "I2C.h"
 
-using namespace myRIO;
+using namespace myWRIO;
 extern NiFpga_Session myrio_session; // global variable defined in CAPI/MyRio.c
 int I2C::nbInstance = 0;
 

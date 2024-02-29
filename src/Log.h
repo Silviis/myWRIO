@@ -3,9 +3,9 @@
 
 #include <iostream>
 #include <fstream>
-#include "MyRIO.h"
+#include "myWRIO.h"
 
-namespace myRIO {
+namespace myWRIO {
 
 /**
 * Easily print data to a log file

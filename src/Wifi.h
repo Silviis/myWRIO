@@ -1,7 +1,7 @@
 #ifndef WIFI_H
 #define WIFI_H
 
-#include "MyRIO.h"
+#include "myWRIO.h"
 #include <unistd.h> // read
 #include <sys/socket.h> // bind, connect...
 #include <netinet/in.h> // sockaddr_in
@@ -10,7 +10,7 @@
 #include <sys/ioctl.h>
 #include <cstdio> // perror
 
-namespace myRIO {
+namespace myWRIO {
 	
 	/**
 	* Use this class to exchange data via wifi

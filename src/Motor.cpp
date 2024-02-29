@@ -1,6 +1,6 @@
 #include "Motor.h"
 
-using namespace myRIO;
+using namespace myWRIO;
 
 /** Motors configuration
 * @param port the PWM port (PWM[A:C]_[0:2])

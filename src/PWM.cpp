@@ -1,6 +1,6 @@
 #include "PWM.h"
 
-using namespace myRIO;
+using namespace myWRIO;
 extern NiFpga_Session myrio_session;
 
 /** Create PWM signal

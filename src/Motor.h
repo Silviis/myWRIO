@@ -1,12 +1,12 @@
 #ifndef MOTOR_H_
 #define MOTOR_H_
 
-#include "MyRIO.h"
+#include "myWRIO.h"
 #include "PWM.h"
 #include "Encoder.h"
 #include "DIO.h"
 
-namespace myRIO {
+namespace myWRIO {
 // The direction of the rotation of the motors (Clockwise, Counter Clockwise )
 enum {
 	CCW, // LOW

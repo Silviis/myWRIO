@@ -1,7 +1,7 @@
 #include "Log.h"
 
 using namespace std;
-using namespace myRIO;
+using namespace myWRIO;
 
 /**
  * A simple constructor for a Log.

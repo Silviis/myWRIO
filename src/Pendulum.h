@@ -1,10 +1,10 @@
 #ifndef PENDULUM_H_
 #define PENDULUM_H_
 
-#include "MyRIO.h"
+#include "myWRIO.h"
 #include "Time.h"
 
-namespace myRIO {
+namespace myWRIO {
 
 class Pendulum {
 public:
@@ -23,6 +23,6 @@ private:
 	const double tetaRef = 90;
 };
 
-} /* namespace myRIO */
+} /* namespace myWRIO */
 
 #endif /* PENDULUM_H_ */

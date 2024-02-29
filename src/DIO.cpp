@@ -1,6 +1,6 @@
 #include "DIO.h"
 
-using namespace myRIO;
+using namespace myWRIO;
 extern NiFpga_Session myrio_session; // global variable defined in CAPI/MyRio.c
 
 uint8_t DIO::DOLED30_Status = 0;

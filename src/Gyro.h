@@ -1,7 +1,7 @@
 #ifndef GYRO_H_
 #define GYRO_H_
 
-#include "MyRIO.h"
+#include "myWRIO.h"
 #include "I2C.h"
 #include "Time.h"
 #include <thread>
@@ -13,7 +13,7 @@
  * NOIR = A30 = GND
  */
 
-namespace myRIO {
+namespace myWRIO {
 
 namespace GyroRegisters {
 	constexpr uint8_t L3G4200D_WHO_AM_I   = 0x0F;
@@ -54,6 +54,6 @@ private:
 	bool* run;
 };
 
-} /* namespace myRIO */
+} /* namespace myWRIO */
 
 #endif /* GYRO_H_ */

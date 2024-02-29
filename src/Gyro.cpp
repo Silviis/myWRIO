@@ -1,6 +1,6 @@
 #include "Gyro.h"
 
-using namespace myRIO;
+using namespace myWRIO;
 using namespace GyroRegisters;
 
 /**

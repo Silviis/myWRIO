@@ -5,7 +5,7 @@
 #include <sys/time.h>
 #include <iostream>
 
-namespace myRIO {
+namespace myWRIO {
 
 
 /**

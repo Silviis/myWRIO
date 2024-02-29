@@ -1,10 +1,10 @@
 #ifndef PWM_H
 #define PWM_H
 
-#include "MyRio.h"
+#include "myWRIO.h"
 #include "math.h"
 
-namespace myRIO {
+namespace myWRIO {
 	
 	/**
 	* A0 = pin A D8
@@ -48,6 +48,6 @@ private:
 	uint32_t outmax; /**< PWM Max register*/
 	uint32_t outcmp; /**< PWM Compare register*/
 };
-} /* namespace myRIO */
+} /* namespace myWRIO */
 
 #endif /* PWM_H */

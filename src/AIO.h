@@ -1,11 +1,11 @@
 #ifndef AIO_H_
 #define AIO_H_
 
-#include "CAPI/MyRio.h"
+#include "MyRio.h"
 #include <stdio.h> // for MyRio_ReturnIfNotSuccess
-#include "MyRIO.h"
+#include "myWRIO.h"
 
-namespace myRIO {
+namespace myWRIO {
 
 
 

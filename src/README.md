@@ -12,8 +12,8 @@ There is a guide to setup Eclipse to use our API.
 * Blink a LED
 
 ```cpp
-#include "MyRIO.h"
-using namespace myRIO;
+#include "myWRIO.h"
+using namespace myWRIO;
 int main() {
     if(!myRIO_init()) {std::cout << "Error initializing myRIO"; return -1;}
   
@@ -30,8 +30,8 @@ int main() {
 * Output a PWM signal
 
 ```cpp
-#include "MyRIO.h"
-using namespace myRIO;
+#include "myWRIO.h"
+using namespace myWRIO;
 using namespace std;
 int main() {
     if(!myRIO_init()) {cout << "Error initializing myRIO"; return -1;}
@@ -44,8 +44,8 @@ int main() {
 * Generate a sine with AIO class (Analog Input Output)
 
 ```cpp
-#include "MyRIO.h"
-using namespace myRIO;
+#include "myWRIO.h"
+using namespace myWRIO;
 using namespace std;
 int main() {
     if(!myRIO_init()) {cout << "Error initializing myRIO"; return -1;}
