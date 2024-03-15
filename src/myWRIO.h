@@ -9,16 +9,11 @@
 #include "Acc.h"
 #include "DIO.h"
 #include "AIO.h"
-#include "Encoder.h"
 #include "Gyro.h"
 #include "I2C.h"
 #include "PWM.h"
 #include "Time.h"
 #include "Wifi.h"
-#include "Motor.h"
-#include "MotorPID.h"
-#include "Pendulum.h"
-#include "Log.h"
 
 
 
